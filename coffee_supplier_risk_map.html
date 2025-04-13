@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56580007fb5c978a657e920a768746a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_56580007fb5c978a657e920a768746a9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_56580007fb5c978a657e920a768746a9 = L.map(
+                "map_56580007fb5c978a657e920a768746a9",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_17c492673a261e01d4ba01c2c365aac4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_17c492673a261e01d4ba01c2c365aac4.addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+            var circle_marker_73416cc57704191559ab30cf2af8eb48 = L.circleMarker(
+                [5.29666201432475, 103.48106235123232],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_1cc0147a49258e9831f36578998cbe0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b58f5140ba1e2390b100349dfe73cf61 = $(`<div id="html_b58f5140ba1e2390b100349dfe73cf61" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_001 (Indonesia) Risk: High</div>`)[0];
+                popup_1cc0147a49258e9831f36578998cbe0c.setContent(html_b58f5140ba1e2390b100349dfe73cf61);
+            
+        
+
+        circle_marker_73416cc57704191559ab30cf2af8eb48.bindPopup(popup_1cc0147a49258e9831f36578998cbe0c)
+        ;
+
+        
+    
+    
+            var circle_marker_7f5cc0e9092f739c79b71066b1a78236 = L.circleMarker(
+                [9.57312180077964, 107.78239444151608],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4890c7584b90a66d7fef4647f0954771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_168a4eade925832165293963e111add6 = $(`<div id="html_168a4eade925832165293963e111add6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_002 (Vietnam) Risk: Medium</div>`)[0];
+                popup_4890c7584b90a66d7fef4647f0954771.setContent(html_168a4eade925832165293963e111add6);
+            
+        
+
+        circle_marker_7f5cc0e9092f739c79b71066b1a78236.bindPopup(popup_4890c7584b90a66d7fef4647f0954771)
+        ;
+
+        
+    
+    
+            var circle_marker_7a79dfd7a7df02dda8850c837307e5c0 = L.circleMarker(
+                [-2.677150530362635, 30.55786588047636],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_58cfcf03d7a324971e53cc3ef1199198 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64bf089ba26513622f67e16674bdb6d0 = $(`<div id="html_64bf089ba26513622f67e16674bdb6d0" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_003 (Rwanda) Risk: Medium</div>`)[0];
+                popup_58cfcf03d7a324971e53cc3ef1199198.setContent(html_64bf089ba26513622f67e16674bdb6d0);
+            
+        
+
+        circle_marker_7a79dfd7a7df02dda8850c837307e5c0.bindPopup(popup_58cfcf03d7a324971e53cc3ef1199198)
+        ;
+
+        
+    
+    
+            var circle_marker_0373b1d6e08fc4ce20d7509ea20a2235 = L.circleMarker(
+                [-3.56771226192686, 137.11362915542804],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ce8896151f6449add15ca8633217d00e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9699a2663227ae0d677509746e1af7bb = $(`<div id="html_9699a2663227ae0d677509746e1af7bb" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_004 (Indonesia) Risk: Low</div>`)[0];
+                popup_ce8896151f6449add15ca8633217d00e.setContent(html_9699a2663227ae0d677509746e1af7bb);
+            
+        
+
+        circle_marker_0373b1d6e08fc4ce20d7509ea20a2235.bindPopup(popup_ce8896151f6449add15ca8633217d00e)
+        ;
+
+        
+    
+    
+            var circle_marker_5ac3ee0dca78c3089bee08d2d7c1ceda = L.circleMarker(
+                [11.697627902901914, 42.15607000511936],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_08425da8dd4263bc9df88690e91c3158 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_370ffe57ee86af3f35bab4ec6857c6bd = $(`<div id="html_370ffe57ee86af3f35bab4ec6857c6bd" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_005 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_08425da8dd4263bc9df88690e91c3158.setContent(html_370ffe57ee86af3f35bab4ec6857c6bd);
+            
+        
+
+        circle_marker_5ac3ee0dca78c3089bee08d2d7c1ceda.bindPopup(popup_08425da8dd4263bc9df88690e91c3158)
+        ;
+
+        
+    
+    
+            var circle_marker_a70683f7a76b0c90fe309dd641ebac77 = L.circleMarker(
+                [-1.0912477652960215, 29.632963683409315],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_86da2758e7467aa7265b17e635d3cd42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0cc66ff04d9e1dd25baae1aa8035878 = $(`<div id="html_b0cc66ff04d9e1dd25baae1aa8035878" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_006 (Rwanda) Risk: Medium</div>`)[0];
+                popup_86da2758e7467aa7265b17e635d3cd42.setContent(html_b0cc66ff04d9e1dd25baae1aa8035878);
+            
+        
+
+        circle_marker_a70683f7a76b0c90fe309dd641ebac77.bindPopup(popup_86da2758e7467aa7265b17e635d3cd42)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba1e4041eb8ffcf0942645fa6f79ce9 = L.circleMarker(
+                [-1.0826435142286606, 29.083502682584538],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_6b8a3f0189d59da0e59d69a334c98294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2bbdfe247c819a8e0c25efd4ad8e2bd = $(`<div id="html_c2bbdfe247c819a8e0c25efd4ad8e2bd" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_007 (Rwanda) Risk: Low</div>`)[0];
+                popup_6b8a3f0189d59da0e59d69a334c98294.setContent(html_c2bbdfe247c819a8e0c25efd4ad8e2bd);
+            
+        
+
+        circle_marker_3ba1e4041eb8ffcf0942645fa6f79ce9.bindPopup(popup_6b8a3f0189d59da0e59d69a334c98294)
+        ;
+
+        
+    
+    
+            var circle_marker_eccdae14e91839a0d461b3940a363bd9 = L.circleMarker(
+                [-2.776165987148983, 107.41591623004096],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_db6e94bfd5b9016973c41889a8464889 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89b69b1d58f63d459fbfd9158e270f80 = $(`<div id="html_89b69b1d58f63d459fbfd9158e270f80" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_008 (Indonesia) Risk: Medium</div>`)[0];
+                popup_db6e94bfd5b9016973c41889a8464889.setContent(html_89b69b1d58f63d459fbfd9158e270f80);
+            
+        
+
+        circle_marker_eccdae14e91839a0d461b3940a363bd9.bindPopup(popup_db6e94bfd5b9016973c41889a8464889)
+        ;
+
+        
+    
+    
+            var circle_marker_def6cf7e7a61b506366690093a76afb0 = L.circleMarker(
+                [4.761390129876012, -77.03963207751183],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_298f9f94e09554b83326d2572b6d4d2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd5cc683845278a25e722afefeb6443d = $(`<div id="html_bd5cc683845278a25e722afefeb6443d" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_009 (Colombia) Risk: Medium</div>`)[0];
+                popup_298f9f94e09554b83326d2572b6d4d2c.setContent(html_bd5cc683845278a25e722afefeb6443d);
+            
+        
+
+        circle_marker_def6cf7e7a61b506366690093a76afb0.bindPopup(popup_298f9f94e09554b83326d2572b6d4d2c)
+        ;
+
+        
+    
+    
+            var circle_marker_d35e17ded470b509ef02d1183f0f72ed = L.circleMarker(
+                [13.077591093565498, 45.69611773971836],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_8722998faf96266fce1eea0d057fd312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3e34e76cbd29cc2a860315cbc63a4c4 = $(`<div id="html_a3e34e76cbd29cc2a860315cbc63a4c4" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_010 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_8722998faf96266fce1eea0d057fd312.setContent(html_a3e34e76cbd29cc2a860315cbc63a4c4);
+            
+        
+
+        circle_marker_d35e17ded470b509ef02d1183f0f72ed.bindPopup(popup_8722998faf96266fce1eea0d057fd312)
+        ;
+
+        
+    
+    
+            var circle_marker_f0ba46261beb1c78ca2375c9f2873fa7 = L.circleMarker(
+                [5.239017316299143, 102.11491848062887],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_c56e931fbd62c3b63f9e8550ba974599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b11d62e0701401b7494a35e7f7b70fc = $(`<div id="html_7b11d62e0701401b7494a35e7f7b70fc" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_011 (Indonesia) Risk: Medium</div>`)[0];
+                popup_c56e931fbd62c3b63f9e8550ba974599.setContent(html_7b11d62e0701401b7494a35e7f7b70fc);
+            
+        
+
+        circle_marker_f0ba46261beb1c78ca2375c9f2873fa7.bindPopup(popup_c56e931fbd62c3b63f9e8550ba974599)
+        ;
+
+        
+    
+    
+            var circle_marker_d1f4303fedb38279d452eb00d456490b = L.circleMarker(
+                [10.568324335407391, 40.11355963050554],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_02a1c464d32c833b16a39b3123687ebb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5d3f40fdf7da80f7053fb55e94d14bc = $(`<div id="html_d5d3f40fdf7da80f7053fb55e94d14bc" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_012 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_02a1c464d32c833b16a39b3123687ebb.setContent(html_d5d3f40fdf7da80f7053fb55e94d14bc);
+            
+        
+
+        circle_marker_d1f4303fedb38279d452eb00d456490b.bindPopup(popup_02a1c464d32c833b16a39b3123687ebb)
+        ;
+
+        
+    
+    
+            var circle_marker_2de2d10f8cc40520c6f5947515b45e8d = L.circleMarker(
+                [7.360412918508682, 38.27310241701328],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_fcbb8525685cb310b26fbee0918d42d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48eb74503c83a97bbe9c7314e8f752ce = $(`<div id="html_48eb74503c83a97bbe9c7314e8f752ce" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_013 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_fcbb8525685cb310b26fbee0918d42d7.setContent(html_48eb74503c83a97bbe9c7314e8f752ce);
+            
+        
+
+        circle_marker_2de2d10f8cc40520c6f5947515b45e8d.bindPopup(popup_fcbb8525685cb310b26fbee0918d42d7)
+        ;
+
+        
+    
+    
+            var circle_marker_715c59b70a74a6611848dfb0816b3af7 = L.circleMarker(
+                [-2.056971608907846, 30.2803436543468],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_838c7573b8f0d5936a845bce7f646a2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8192f6c4ed66ca27a72e7d7bf3f9ff2 = $(`<div id="html_c8192f6c4ed66ca27a72e7d7bf3f9ff2" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_014 (Rwanda) Risk: Medium</div>`)[0];
+                popup_838c7573b8f0d5936a845bce7f646a2a.setContent(html_c8192f6c4ed66ca27a72e7d7bf3f9ff2);
+            
+        
+
+        circle_marker_715c59b70a74a6611848dfb0816b3af7.bindPopup(popup_838c7573b8f0d5936a845bce7f646a2a)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb68328a2b032c1455391135d2a0355 = L.circleMarker(
+                [17.29394808567595, 105.44761134570848],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_1faa40c30df7513ddadacd53115e9ad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd674219a3266118ecc9a05ef6154f2f = $(`<div id="html_cd674219a3266118ecc9a05ef6154f2f" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_015 (Vietnam) Risk: Medium</div>`)[0];
+                popup_1faa40c30df7513ddadacd53115e9ad7.setContent(html_cd674219a3266118ecc9a05ef6154f2f);
+            
+        
+
+        circle_marker_bfb68328a2b032c1455391135d2a0355.bindPopup(popup_1faa40c30df7513ddadacd53115e9ad7)
+        ;
+
+        
+    
+    
+            var circle_marker_c836fe8df009d43663035f59cdc6e56d = L.circleMarker(
+                [4.273234219250654, 34.16648016118435],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4cefc6be344317092b856d94cd3882b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d3b61f823951c099970ce55cd306bf6 = $(`<div id="html_1d3b61f823951c099970ce55cd306bf6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_016 (Ethiopia) Risk: Low</div>`)[0];
+                popup_4cefc6be344317092b856d94cd3882b1.setContent(html_1d3b61f823951c099970ce55cd306bf6);
+            
+        
+
+        circle_marker_c836fe8df009d43663035f59cdc6e56d.bindPopup(popup_4cefc6be344317092b856d94cd3882b1)
+        ;
+
+        
+    
+    
+            var circle_marker_b4527ebd3383ba9e3bb6321b20a678fd = L.circleMarker(
+                [12.907252110939911, -83.40026379311607],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_7694949cce25f30ca007f9ca5312b20b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16acd22e325ea10464880637868d006a = $(`<div id="html_16acd22e325ea10464880637868d006a" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_017 (Honduras) Risk: Medium</div>`)[0];
+                popup_7694949cce25f30ca007f9ca5312b20b.setContent(html_16acd22e325ea10464880637868d006a);
+            
+        
+
+        circle_marker_b4527ebd3383ba9e3bb6321b20a678fd.bindPopup(popup_7694949cce25f30ca007f9ca5312b20b)
+        ;
+
+        
+    
+    
+            var circle_marker_b95ea9164d8afa20cdaf4611ca795f2f = L.circleMarker(
+                [-2.790543126594907, 29.016496866628867],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4390da494918dbc1ec6f014dac4ad15d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00780905faee9a6e6dc6bf29d2df4c0f = $(`<div id="html_00780905faee9a6e6dc6bf29d2df4c0f" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_018 (Rwanda) Risk: Low</div>`)[0];
+                popup_4390da494918dbc1ec6f014dac4ad15d.setContent(html_00780905faee9a6e6dc6bf29d2df4c0f);
+            
+        
+
+        circle_marker_b95ea9164d8afa20cdaf4611ca795f2f.bindPopup(popup_4390da494918dbc1ec6f014dac4ad15d)
+        ;
+
+        
+    
+    
+            var circle_marker_61f445237aefefe46f3d77e28ca16689 = L.circleMarker(
+                [1.022302843036221, -69.23009395301719],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_0b002096d426d6e92ec566c566358af5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15c59a931aec12c4111a9fcc1870f0ca = $(`<div id="html_15c59a931aec12c4111a9fcc1870f0ca" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_019 (Colombia) Risk: Medium</div>`)[0];
+                popup_0b002096d426d6e92ec566c566358af5.setContent(html_15c59a931aec12c4111a9fcc1870f0ca);
+            
+        
+
+        circle_marker_61f445237aefefe46f3d77e28ca16689.bindPopup(popup_0b002096d426d6e92ec566c566358af5)
+        ;
+
+        
+    
+    
+            var circle_marker_f42a3b310888a0f404d5375310313f27 = L.circleMarker(
+                [22.823901543614586, 107.92510169093892],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_5aba66a25779e52610b956eca46c82fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c0ca3b0c8eb8e596096e132cbd9f3dd = $(`<div id="html_0c0ca3b0c8eb8e596096e132cbd9f3dd" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_020 (Vietnam) Risk: Low</div>`)[0];
+                popup_5aba66a25779e52610b956eca46c82fb.setContent(html_0c0ca3b0c8eb8e596096e132cbd9f3dd);
+            
+        
+
+        circle_marker_f42a3b310888a0f404d5375310313f27.bindPopup(popup_5aba66a25779e52610b956eca46c82fb)
+        ;
+
+        
+    
+    
+            var circle_marker_010f2d24be47f3f4f81429ca19375828 = L.circleMarker(
+                [15.040736720581483, -86.16793586203588],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_2c29302ccb701680dac0d65fd7e8f35e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_371ec607caa1e146e4b631562bf22d4c = $(`<div id="html_371ec607caa1e146e4b631562bf22d4c" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_021 (Honduras) Risk: Low</div>`)[0];
+                popup_2c29302ccb701680dac0d65fd7e8f35e.setContent(html_371ec607caa1e146e4b631562bf22d4c);
+            
+        
+
+        circle_marker_010f2d24be47f3f4f81429ca19375828.bindPopup(popup_2c29302ccb701680dac0d65fd7e8f35e)
+        ;
+
+        
+    
+    
+            var circle_marker_f19d1c93c8490a7bf1600fbff5bb7805 = L.circleMarker(
+                [13.16878615677277, -83.45934108337563],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_8a1304688319ae1dc3e0161167eb8c9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a31cb64e5bd3e04caab1078b9814137 = $(`<div id="html_8a31cb64e5bd3e04caab1078b9814137" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_022 (Honduras) Risk: Medium</div>`)[0];
+                popup_8a1304688319ae1dc3e0161167eb8c9f.setContent(html_8a31cb64e5bd3e04caab1078b9814137);
+            
+        
+
+        circle_marker_f19d1c93c8490a7bf1600fbff5bb7805.bindPopup(popup_8a1304688319ae1dc3e0161167eb8c9f)
+        ;
+
+        
+    
+    
+            var circle_marker_cb74d858577174f76a65d356626a001c = L.circleMarker(
+                [8.389314071498314, -71.26871243745543],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_2b81f120acca7d4e13ed52a5af10a54a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8966f117cec29eefd6f1fb3f870c1f0c = $(`<div id="html_8966f117cec29eefd6f1fb3f870c1f0c" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_023 (Colombia) Risk: Low</div>`)[0];
+                popup_2b81f120acca7d4e13ed52a5af10a54a.setContent(html_8966f117cec29eefd6f1fb3f870c1f0c);
+            
+        
+
+        circle_marker_cb74d858577174f76a65d356626a001c.bindPopup(popup_2b81f120acca7d4e13ed52a5af10a54a)
+        ;
+
+        
+    
+    
+            var circle_marker_ce1ccfbba94c4afbdc564bce2694892e = L.circleMarker(
+                [19.737344852190517, 107.43077496954854],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_997394ddd31559e113f0feec746dc974 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66fac7468973655d77ae0919502bd21d = $(`<div id="html_66fac7468973655d77ae0919502bd21d" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_024 (Vietnam) Risk: Low</div>`)[0];
+                popup_997394ddd31559e113f0feec746dc974.setContent(html_66fac7468973655d77ae0919502bd21d);
+            
+        
+
+        circle_marker_ce1ccfbba94c4afbdc564bce2694892e.bindPopup(popup_997394ddd31559e113f0feec746dc974)
+        ;
+
+        
+    
+    
+            var circle_marker_61a4bd387fc546c6a45f417e04c87f5d = L.circleMarker(
+                [-1.6529831563789237, 30.859211280377973],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ec666f4801910eb51fd0f4254e0830b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ce929164d02da0d3d12e685cf0bf9fd = $(`<div id="html_2ce929164d02da0d3d12e685cf0bf9fd" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_025 (Rwanda) Risk: Low</div>`)[0];
+                popup_ec666f4801910eb51fd0f4254e0830b2.setContent(html_2ce929164d02da0d3d12e685cf0bf9fd);
+            
+        
+
+        circle_marker_61a4bd387fc546c6a45f417e04c87f5d.bindPopup(popup_ec666f4801910eb51fd0f4254e0830b2)
+        ;
+
+        
+    
+    
+            var circle_marker_9329ca9a71985aa0ef7495d4c46d1541 = L.circleMarker(
+                [1.53118869280497, -48.61540166251891],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_be1868cd3619de7af564e0acd71eadf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7ee8a459ad4cf700ea9285e3549ac86 = $(`<div id="html_b7ee8a459ad4cf700ea9285e3549ac86" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_026 (Brazil) Risk: High</div>`)[0];
+                popup_be1868cd3619de7af564e0acd71eadf2.setContent(html_b7ee8a459ad4cf700ea9285e3549ac86);
+            
+        
+
+        circle_marker_9329ca9a71985aa0ef7495d4c46d1541.bindPopup(popup_be1868cd3619de7af564e0acd71eadf2)
+        ;
+
+        
+    
+    
+            var circle_marker_249cb259da25695f9068f6a6019552cb = L.circleMarker(
+                [18.736263214145257, 102.38696854994032],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_bd581de7b33a3479838cedfc46facbf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_319db22919c4109cf683bc31f429496f = $(`<div id="html_319db22919c4109cf683bc31f429496f" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_027 (Vietnam) Risk: Medium</div>`)[0];
+                popup_bd581de7b33a3479838cedfc46facbf7.setContent(html_319db22919c4109cf683bc31f429496f);
+            
+        
+
+        circle_marker_249cb259da25695f9068f6a6019552cb.bindPopup(popup_bd581de7b33a3479838cedfc46facbf7)
+        ;
+
+        
+    
+    
+            var circle_marker_894ba7da4c053a7cae40a16b483f1e3c = L.circleMarker(
+                [6.920629911530652, -78.46559820370778],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_84ace28bda4cfb8c88f99a96a315de69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9223faaa0d38c411690a3c88c0329b15 = $(`<div id="html_9223faaa0d38c411690a3c88c0329b15" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_028 (Colombia) Risk: Medium</div>`)[0];
+                popup_84ace28bda4cfb8c88f99a96a315de69.setContent(html_9223faaa0d38c411690a3c88c0329b15);
+            
+        
+
+        circle_marker_894ba7da4c053a7cae40a16b483f1e3c.bindPopup(popup_84ace28bda4cfb8c88f99a96a315de69)
+        ;
+
+        
+    
+    
+            var circle_marker_c2c9cac374b19ac1bb16c1e46a57c4c9 = L.circleMarker(
+                [14.723617646606789, -83.20400830269183],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_c3c4aab76455d2b6a8c7fc0c56ddcba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08f982abeab20227d3545069ab9540ed = $(`<div id="html_08f982abeab20227d3545069ab9540ed" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_029 (Honduras) Risk: Medium</div>`)[0];
+                popup_c3c4aab76455d2b6a8c7fc0c56ddcba4.setContent(html_08f982abeab20227d3545069ab9540ed);
+            
+        
+
+        circle_marker_c2c9cac374b19ac1bb16c1e46a57c4c9.bindPopup(popup_c3c4aab76455d2b6a8c7fc0c56ddcba4)
+        ;
+
+        
+    
+    
+            var circle_marker_5e652b6ca512d36885522ce06fb486b5 = L.circleMarker(
+                [-1.7995481534130766, 29.7937412479708],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_d8d514565fc1f9c92c6b2e3a6bea372a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66819e353abbfb6ad477efae3e367d1a = $(`<div id="html_66819e353abbfb6ad477efae3e367d1a" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_030 (Rwanda) Risk: Medium</div>`)[0];
+                popup_d8d514565fc1f9c92c6b2e3a6bea372a.setContent(html_66819e353abbfb6ad477efae3e367d1a);
+            
+        
+
+        circle_marker_5e652b6ca512d36885522ce06fb486b5.bindPopup(popup_d8d514565fc1f9c92c6b2e3a6bea372a)
+        ;
+
+        
+    
+    
+            var circle_marker_6e6c0e39696b57a43a7043476e4bfc5a = L.circleMarker(
+                [12.955393818884929, 102.90391934089848],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_7274019ec7afa990b572cd89bacd11a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92f8869a739a8efca8bbe70d89ec119a = $(`<div id="html_92f8869a739a8efca8bbe70d89ec119a" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_031 (Vietnam) Risk: Medium</div>`)[0];
+                popup_7274019ec7afa990b572cd89bacd11a9.setContent(html_92f8869a739a8efca8bbe70d89ec119a);
+            
+        
+
+        circle_marker_6e6c0e39696b57a43a7043476e4bfc5a.bindPopup(popup_7274019ec7afa990b572cd89bacd11a9)
+        ;
+
+        
+    
+    
+            var circle_marker_699e8440b77f0fe731d92326e4d2890b = L.circleMarker(
+                [-5.190076813127019, -66.36937801358185],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_73bffa4774e144ac955aa61f2b946cf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f375da1dafe11253287c881d66833aa9 = $(`<div id="html_f375da1dafe11253287c881d66833aa9" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_032 (Brazil) Risk: Medium</div>`)[0];
+                popup_73bffa4774e144ac955aa61f2b946cf4.setContent(html_f375da1dafe11253287c881d66833aa9);
+            
+        
+
+        circle_marker_699e8440b77f0fe731d92326e4d2890b.bindPopup(popup_73bffa4774e144ac955aa61f2b946cf4)
+        ;
+
+        
+    
+    
+            var circle_marker_39cd6100489aa27360718d845466fe2f = L.circleMarker(
+                [-29.204001171355912, -57.40908000453696],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_8c5a28489701e7f8a445824989ad5bf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b42c064dea5bda2aeefa396466e28983 = $(`<div id="html_b42c064dea5bda2aeefa396466e28983" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_033 (Brazil) Risk: Medium</div>`)[0];
+                popup_8c5a28489701e7f8a445824989ad5bf6.setContent(html_b42c064dea5bda2aeefa396466e28983);
+            
+        
+
+        circle_marker_39cd6100489aa27360718d845466fe2f.bindPopup(popup_8c5a28489701e7f8a445824989ad5bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_fffacd137f84fca47c4f37ad81465702 = L.circleMarker(
+                [12.54643113652962, 44.17596822180331],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_42195452412e7d55a1fc20f2510ee605 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d25e01e05125d29b626429b8ea74d36 = $(`<div id="html_1d25e01e05125d29b626429b8ea74d36" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_034 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_42195452412e7d55a1fc20f2510ee605.setContent(html_1d25e01e05125d29b626429b8ea74d36);
+            
+        
+
+        circle_marker_fffacd137f84fca47c4f37ad81465702.bindPopup(popup_42195452412e7d55a1fc20f2510ee605)
+        ;
+
+        
+    
+    
+            var circle_marker_e3d7c49d17f5e9bc5573523751bf2b16 = L.circleMarker(
+                [4.031150068434462, 39.82715527554234],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_57819da01e61e722c9ecd38d2239290d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edab4b80f8aa2843213c096667298f95 = $(`<div id="html_edab4b80f8aa2843213c096667298f95" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_035 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_57819da01e61e722c9ecd38d2239290d.setContent(html_edab4b80f8aa2843213c096667298f95);
+            
+        
+
+        circle_marker_e3d7c49d17f5e9bc5573523751bf2b16.bindPopup(popup_57819da01e61e722c9ecd38d2239290d)
+        ;
+
+        
+    
+    
+            var circle_marker_4f37677031f1587763ec1fc3f8ab011b = L.circleMarker(
+                [-2.118612206790128, 124.64914592878782],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_2c4ae8db61b5e5b5ec2afe97b72cc358 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c852fdb29d91309d1f750c084797a70 = $(`<div id="html_9c852fdb29d91309d1f750c084797a70" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_036 (Indonesia) Risk: Medium</div>`)[0];
+                popup_2c4ae8db61b5e5b5ec2afe97b72cc358.setContent(html_9c852fdb29d91309d1f750c084797a70);
+            
+        
+
+        circle_marker_4f37677031f1587763ec1fc3f8ab011b.bindPopup(popup_2c4ae8db61b5e5b5ec2afe97b72cc358)
+        ;
+
+        
+    
+    
+            var circle_marker_c3491cff1554ceb1284183a23215a051 = L.circleMarker(
+                [6.592778017357588, -74.5871632815666],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ca65ab9be4b432196b92ae948c993bc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5aa1ce89b156763b254541db47a6441e = $(`<div id="html_5aa1ce89b156763b254541db47a6441e" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_037 (Colombia) Risk: Medium</div>`)[0];
+                popup_ca65ab9be4b432196b92ae948c993bc8.setContent(html_5aa1ce89b156763b254541db47a6441e);
+            
+        
+
+        circle_marker_c3491cff1554ceb1284183a23215a051.bindPopup(popup_ca65ab9be4b432196b92ae948c993bc8)
+        ;
+
+        
+    
+    
+            var circle_marker_c3e0d76c4af001e775b56ae45ae8fd0a = L.circleMarker(
+                [16.722293348853412, 105.60796412883064],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_5294a1968ddd2300686762f7e07db58e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aba2c1ca16f8f500a7980e321deecf86 = $(`<div id="html_aba2c1ca16f8f500a7980e321deecf86" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_038 (Vietnam) Risk: Low</div>`)[0];
+                popup_5294a1968ddd2300686762f7e07db58e.setContent(html_aba2c1ca16f8f500a7980e321deecf86);
+            
+        
+
+        circle_marker_c3e0d76c4af001e775b56ae45ae8fd0a.bindPopup(popup_5294a1968ddd2300686762f7e07db58e)
+        ;
+
+        
+    
+    
+            var circle_marker_ee5a7420b9be54fdad5c77dfbbf73e8a = L.circleMarker(
+                [21.65197501915387, 105.97698849476176],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_dd93d2ea7eff0b24577df4fa1b06534f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d8b5ddfc962ce5ecd8b24055aeed8b8 = $(`<div id="html_3d8b5ddfc962ce5ecd8b24055aeed8b8" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_039 (Vietnam) Risk: Medium</div>`)[0];
+                popup_dd93d2ea7eff0b24577df4fa1b06534f.setContent(html_3d8b5ddfc962ce5ecd8b24055aeed8b8);
+            
+        
+
+        circle_marker_ee5a7420b9be54fdad5c77dfbbf73e8a.bindPopup(popup_dd93d2ea7eff0b24577df4fa1b06534f)
+        ;
+
+        
+    
+    
+            var circle_marker_44f40213b54ada21e03999c7981fde26 = L.circleMarker(
+                [-3.5024532502812527, 113.60633068536514],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_652b5a280c2766b83d04ca15ead31abc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1555bfa59fc8b544f363b57982fd0710 = $(`<div id="html_1555bfa59fc8b544f363b57982fd0710" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_040 (Indonesia) Risk: Medium</div>`)[0];
+                popup_652b5a280c2766b83d04ca15ead31abc.setContent(html_1555bfa59fc8b544f363b57982fd0710);
+            
+        
+
+        circle_marker_44f40213b54ada21e03999c7981fde26.bindPopup(popup_652b5a280c2766b83d04ca15ead31abc)
+        ;
+
+        
+    
+    
+            var circle_marker_a067d7fb98f6842f7e91eb3095af336e = L.circleMarker(
+                [14.674526054243744, -84.41534272771443],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_45be11ea1786b61f3e8a136fedecb118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c7f89f86986f2e9bdbbd573a844b816 = $(`<div id="html_3c7f89f86986f2e9bdbbd573a844b816" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_041 (Honduras) Risk: Medium</div>`)[0];
+                popup_45be11ea1786b61f3e8a136fedecb118.setContent(html_3c7f89f86986f2e9bdbbd573a844b816);
+            
+        
+
+        circle_marker_a067d7fb98f6842f7e91eb3095af336e.bindPopup(popup_45be11ea1786b61f3e8a136fedecb118)
+        ;
+
+        
+    
+    
+            var circle_marker_196673436e36d638fce4b760d07b1482 = L.circleMarker(
+                [14.569044620180442, -85.29773791450064],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_b74b29cdafa48700372c26a4854b6a05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59dd9719eeee537dbc0ce82caa9e721d = $(`<div id="html_59dd9719eeee537dbc0ce82caa9e721d" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_042 (Honduras) Risk: Low</div>`)[0];
+                popup_b74b29cdafa48700372c26a4854b6a05.setContent(html_59dd9719eeee537dbc0ce82caa9e721d);
+            
+        
+
+        circle_marker_196673436e36d638fce4b760d07b1482.bindPopup(popup_b74b29cdafa48700372c26a4854b6a05)
+        ;
+
+        
+    
+    
+            var circle_marker_22b5a74fa99483eda80a07e77b6a6a34 = L.circleMarker(
+                [1.543548037410925, 118.92773305442168],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_480057c48fbff4593f934f03fd3da95f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_224609932d66abeafdca28dccd362ace = $(`<div id="html_224609932d66abeafdca28dccd362ace" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_043 (Indonesia) Risk: Medium</div>`)[0];
+                popup_480057c48fbff4593f934f03fd3da95f.setContent(html_224609932d66abeafdca28dccd362ace);
+            
+        
+
+        circle_marker_22b5a74fa99483eda80a07e77b6a6a34.bindPopup(popup_480057c48fbff4593f934f03fd3da95f)
+        ;
+
+        
+    
+    
+            var circle_marker_42001475282144e2ce2e811bd13dcd5b = L.circleMarker(
+                [14.22313287563008, -83.96467465725281],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_534499946a9a0b173f6a7b3ad4db9319 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97a8e4a996405fd090adfba7ff9668ee = $(`<div id="html_97a8e4a996405fd090adfba7ff9668ee" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_044 (Honduras) Risk: Low</div>`)[0];
+                popup_534499946a9a0b173f6a7b3ad4db9319.setContent(html_97a8e4a996405fd090adfba7ff9668ee);
+            
+        
+
+        circle_marker_42001475282144e2ce2e811bd13dcd5b.bindPopup(popup_534499946a9a0b173f6a7b3ad4db9319)
+        ;
+
+        
+    
+    
+            var circle_marker_b1eeda658b68f3f4c5ddd57faf6f9779 = L.circleMarker(
+                [8.20131996632076, 39.929142758633816],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_f5e9a1f6a129aebd62388ce59b1bd120 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0cbac6c7dd42ccd7468f4d62634462a = $(`<div id="html_d0cbac6c7dd42ccd7468f4d62634462a" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_045 (Ethiopia) Risk: Low</div>`)[0];
+                popup_f5e9a1f6a129aebd62388ce59b1bd120.setContent(html_d0cbac6c7dd42ccd7468f4d62634462a);
+            
+        
+
+        circle_marker_b1eeda658b68f3f4c5ddd57faf6f9779.bindPopup(popup_f5e9a1f6a129aebd62388ce59b1bd120)
+        ;
+
+        
+    
+    
+            var circle_marker_f73bb018ad5a77d95de1ef89475d735f = L.circleMarker(
+                [23.25318796279501, 102.00178142681914],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_dc2afa9ae332ba5f614205b865b94d61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b048966ccccae21d73a86955dd93e0fa = $(`<div id="html_b048966ccccae21d73a86955dd93e0fa" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_046 (Vietnam) Risk: Medium</div>`)[0];
+                popup_dc2afa9ae332ba5f614205b865b94d61.setContent(html_b048966ccccae21d73a86955dd93e0fa);
+            
+        
+
+        circle_marker_f73bb018ad5a77d95de1ef89475d735f.bindPopup(popup_dc2afa9ae332ba5f614205b865b94d61)
+        ;
+
+        
+    
+    
+            var circle_marker_3294297ef2720f87561ade023c264180 = L.circleMarker(
+                [-7.846960537195718, 112.66233893630738],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4f5ad291043459c2d3afcfa629e48774 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c47007a071cb3d76196af9ff551c906e = $(`<div id="html_c47007a071cb3d76196af9ff551c906e" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_047 (Indonesia) Risk: Medium</div>`)[0];
+                popup_4f5ad291043459c2d3afcfa629e48774.setContent(html_c47007a071cb3d76196af9ff551c906e);
+            
+        
+
+        circle_marker_3294297ef2720f87561ade023c264180.bindPopup(popup_4f5ad291043459c2d3afcfa629e48774)
+        ;
+
+        
+    
+    
+            var circle_marker_1891f5dbd36b96673b336f781bac3638 = L.circleMarker(
+                [22.375366623263844, 102.52522279310604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_9df4527f18d0de538e55a474908aa65e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1a23fb1b4984f2e90cde5a9af640321 = $(`<div id="html_a1a23fb1b4984f2e90cde5a9af640321" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_048 (Vietnam) Risk: High</div>`)[0];
+                popup_9df4527f18d0de538e55a474908aa65e.setContent(html_a1a23fb1b4984f2e90cde5a9af640321);
+            
+        
+
+        circle_marker_1891f5dbd36b96673b336f781bac3638.bindPopup(popup_9df4527f18d0de538e55a474908aa65e)
+        ;
+
+        
+    
+    
+            var circle_marker_66f8b428fdbd0ddee378045e441714c4 = L.circleMarker(
+                [-33.33006808848858, -71.84006201329036],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_25fef95559f0eb55db64436c50725189 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4de9b650a76a308251e4d4484ad6c138 = $(`<div id="html_4de9b650a76a308251e4d4484ad6c138" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_049 (Brazil) Risk: Medium</div>`)[0];
+                popup_25fef95559f0eb55db64436c50725189.setContent(html_4de9b650a76a308251e4d4484ad6c138);
+            
+        
+
+        circle_marker_66f8b428fdbd0ddee378045e441714c4.bindPopup(popup_25fef95559f0eb55db64436c50725189)
+        ;
+
+        
+    
+    
+            var circle_marker_2f9942271e06b9ec89a897e69375e0a5 = L.circleMarker(
+                [4.418249222056609, 33.563951598093915],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_5373dce19934a5a784081db5d05aa10a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68cd2c79972e7a260678729be7f153e6 = $(`<div id="html_68cd2c79972e7a260678729be7f153e6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_050 (Ethiopia) Risk: Low</div>`)[0];
+                popup_5373dce19934a5a784081db5d05aa10a.setContent(html_68cd2c79972e7a260678729be7f153e6);
+            
+        
+
+        circle_marker_2f9942271e06b9ec89a897e69375e0a5.bindPopup(popup_5373dce19934a5a784081db5d05aa10a)
+        ;
+
+        
+    
+    
+            var circle_marker_4c04d9dadb9c14ead6698c92f222bfff = L.circleMarker(
+                [-1.9363936116582912, 30.01959013517739],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_8a4361fe574da64b4475610862b65323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8649874f886320f0c28f9c6a6e4a675f = $(`<div id="html_8649874f886320f0c28f9c6a6e4a675f" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_051 (Rwanda) Risk: Medium</div>`)[0];
+                popup_8a4361fe574da64b4475610862b65323.setContent(html_8649874f886320f0c28f9c6a6e4a675f);
+            
+        
+
+        circle_marker_4c04d9dadb9c14ead6698c92f222bfff.bindPopup(popup_8a4361fe574da64b4475610862b65323)
+        ;
+
+        
+    
+    
+            var circle_marker_23c9131cfc7e9f309f8add1d7aa1956d = L.circleMarker(
+                [6.524400167293547, 38.974310759634534],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_00b4b2a21805363bb793564291512df5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7900ae59361b5717d91a468519f3bb08 = $(`<div id="html_7900ae59361b5717d91a468519f3bb08" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_052 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_00b4b2a21805363bb793564291512df5.setContent(html_7900ae59361b5717d91a468519f3bb08);
+            
+        
+
+        circle_marker_23c9131cfc7e9f309f8add1d7aa1956d.bindPopup(popup_00b4b2a21805363bb793564291512df5)
+        ;
+
+        
+    
+    
+            var circle_marker_2cd8a4b2fc1ed30508d10e005502fc7e = L.circleMarker(
+                [-9.441111303105687, 110.4730413361074],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_e2f4e907edd613fc0b5f05943e5d99fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f0b9dc1a8a7660abe5233bf6ae87e39 = $(`<div id="html_5f0b9dc1a8a7660abe5233bf6ae87e39" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_053 (Indonesia) Risk: Medium</div>`)[0];
+                popup_e2f4e907edd613fc0b5f05943e5d99fb.setContent(html_5f0b9dc1a8a7660abe5233bf6ae87e39);
+            
+        
+
+        circle_marker_2cd8a4b2fc1ed30508d10e005502fc7e.bindPopup(popup_e2f4e907edd613fc0b5f05943e5d99fb)
+        ;
+
+        
+    
+    
+            var circle_marker_8c73cf633405ba38a74c85c5e30bf06e = L.circleMarker(
+                [-1.8594654550578584, 30.337770795087753],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_e891c39647410d196b1da7f4f61fe2a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6be914cbe3106c15f9b6e72f12affcc0 = $(`<div id="html_6be914cbe3106c15f9b6e72f12affcc0" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_054 (Rwanda) Risk: Medium</div>`)[0];
+                popup_e891c39647410d196b1da7f4f61fe2a1.setContent(html_6be914cbe3106c15f9b6e72f12affcc0);
+            
+        
+
+        circle_marker_8c73cf633405ba38a74c85c5e30bf06e.bindPopup(popup_e891c39647410d196b1da7f4f61fe2a1)
+        ;
+
+        
+    
+    
+            var circle_marker_37cb0420627773284d7fedd0ecc95efb = L.circleMarker(
+                [-33.56949188032381, -55.628149028377784],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_74e39fe3518f9bf8b50c140f563ab0c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b93f5fa03a1736b98da5430e32b15d8 = $(`<div id="html_7b93f5fa03a1736b98da5430e32b15d8" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_055 (Brazil) Risk: Medium</div>`)[0];
+                popup_74e39fe3518f9bf8b50c140f563ab0c1.setContent(html_7b93f5fa03a1736b98da5430e32b15d8);
+            
+        
+
+        circle_marker_37cb0420627773284d7fedd0ecc95efb.bindPopup(popup_74e39fe3518f9bf8b50c140f563ab0c1)
+        ;
+
+        
+    
+    
+            var circle_marker_088dc32cdaf542aca8bc73d2673f50c7 = L.circleMarker(
+                [-5.950951100267003, 134.22980379782746],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_89e54ccd9dadc371ef33e7b22710739c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edb5b32c6145633deab08624f4dcfa40 = $(`<div id="html_edb5b32c6145633deab08624f4dcfa40" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_056 (Indonesia) Risk: Medium</div>`)[0];
+                popup_89e54ccd9dadc371ef33e7b22710739c.setContent(html_edb5b32c6145633deab08624f4dcfa40);
+            
+        
+
+        circle_marker_088dc32cdaf542aca8bc73d2673f50c7.bindPopup(popup_89e54ccd9dadc371ef33e7b22710739c)
+        ;
+
+        
+    
+    
+            var circle_marker_972b6e7fc29d61fadae148bb4bd67b74 = L.circleMarker(
+                [7.678185032888416, -71.87178673290218],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_097f4db1497187ca82aa30e363061880 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca93026fc638cd0d8791b52839932b96 = $(`<div id="html_ca93026fc638cd0d8791b52839932b96" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_057 (Colombia) Risk: Medium</div>`)[0];
+                popup_097f4db1497187ca82aa30e363061880.setContent(html_ca93026fc638cd0d8791b52839932b96);
+            
+        
+
+        circle_marker_972b6e7fc29d61fadae148bb4bd67b74.bindPopup(popup_097f4db1497187ca82aa30e363061880)
+        ;
+
+        
+    
+    
+            var circle_marker_c8e90d1d9404d7f4da22216f003860ad = L.circleMarker(
+                [12.414437814590958, 108.8275432654315],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_17142887e8f418af980f4d1d690ebeb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8f3bcf0f9467b6e51fcad992a3de5ed = $(`<div id="html_a8f3bcf0f9467b6e51fcad992a3de5ed" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_058 (Vietnam) Risk: Medium</div>`)[0];
+                popup_17142887e8f418af980f4d1d690ebeb9.setContent(html_a8f3bcf0f9467b6e51fcad992a3de5ed);
+            
+        
+
+        circle_marker_c8e90d1d9404d7f4da22216f003860ad.bindPopup(popup_17142887e8f418af980f4d1d690ebeb9)
+        ;
+
+        
+    
+    
+            var circle_marker_23493b7b1f3d0b7d5a30c99719ad356b = L.circleMarker(
+                [-31.9410735884074, -69.61981689164661],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_76357c99f83275f7f2975d8dd9bf6178 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d08e21964b574e9b771971fecd96a21e = $(`<div id="html_d08e21964b574e9b771971fecd96a21e" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_059 (Brazil) Risk: Medium</div>`)[0];
+                popup_76357c99f83275f7f2975d8dd9bf6178.setContent(html_d08e21964b574e9b771971fecd96a21e);
+            
+        
+
+        circle_marker_23493b7b1f3d0b7d5a30c99719ad356b.bindPopup(popup_76357c99f83275f7f2975d8dd9bf6178)
+        ;
+
+        
+    
+    
+            var circle_marker_ccaac0946629c0e8194be70a07f42d3e = L.circleMarker(
+                [14.152778136213412, 102.93328167972642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ebab1fbd2219780451b93c618a4bf4e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_214093cb344dab8eb85a399b59ce39fc = $(`<div id="html_214093cb344dab8eb85a399b59ce39fc" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_060 (Vietnam) Risk: High</div>`)[0];
+                popup_ebab1fbd2219780451b93c618a4bf4e8.setContent(html_214093cb344dab8eb85a399b59ce39fc);
+            
+        
+
+        circle_marker_ccaac0946629c0e8194be70a07f42d3e.bindPopup(popup_ebab1fbd2219780451b93c618a4bf4e8)
+        ;
+
+        
+    
+    
+            var circle_marker_f910dfda10611d5ba8e18de70883b224 = L.circleMarker(
+                [15.864888662434218, -84.45246620271102],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_264faeae6f2926899ab4af4df7086a8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bae834aea3e2404226417098f508042 = $(`<div id="html_1bae834aea3e2404226417098f508042" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_061 (Honduras) Risk: Low</div>`)[0];
+                popup_264faeae6f2926899ab4af4df7086a8d.setContent(html_1bae834aea3e2404226417098f508042);
+            
+        
+
+        circle_marker_f910dfda10611d5ba8e18de70883b224.bindPopup(popup_264faeae6f2926899ab4af4df7086a8d)
+        ;
+
+        
+    
+    
+            var circle_marker_17310b7d0da48ed95085da6225323b04 = L.circleMarker(
+                [0.0991120165901069, -71.87849382942373],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_9adf77a560d284210340c2db2a442978 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_005041c5337a56c8f5a74790089c99c6 = $(`<div id="html_005041c5337a56c8f5a74790089c99c6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_062 (Colombia) Risk: Low</div>`)[0];
+                popup_9adf77a560d284210340c2db2a442978.setContent(html_005041c5337a56c8f5a74790089c99c6);
+            
+        
+
+        circle_marker_17310b7d0da48ed95085da6225323b04.bindPopup(popup_9adf77a560d284210340c2db2a442978)
+        ;
+
+        
+    
+    
+            var circle_marker_ee9f7e2c1432eeed2b7581c73170e68b = L.circleMarker(
+                [12.106686550329355, -68.30119236460882],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_1eee958f61f6912c3bac90c580b2e59f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa1822f7b4ce454026de2a02d2ab0d95 = $(`<div id="html_aa1822f7b4ce454026de2a02d2ab0d95" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_063 (Colombia) Risk: Low</div>`)[0];
+                popup_1eee958f61f6912c3bac90c580b2e59f.setContent(html_aa1822f7b4ce454026de2a02d2ab0d95);
+            
+        
+
+        circle_marker_ee9f7e2c1432eeed2b7581c73170e68b.bindPopup(popup_1eee958f61f6912c3bac90c580b2e59f)
+        ;
+
+        
+    
+    
+            var circle_marker_4774ba562b61671ccf0c225006e0f0d8 = L.circleMarker(
+                [-10.26886058875428, -38.56439288344692],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_1206f1aca53bb2cc2bc7a851de4b3992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe7ecedafd295df2ab0819f57480aed1 = $(`<div id="html_fe7ecedafd295df2ab0819f57480aed1" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_064 (Brazil) Risk: Medium</div>`)[0];
+                popup_1206f1aca53bb2cc2bc7a851de4b3992.setContent(html_fe7ecedafd295df2ab0819f57480aed1);
+            
+        
+
+        circle_marker_4774ba562b61671ccf0c225006e0f0d8.bindPopup(popup_1206f1aca53bb2cc2bc7a851de4b3992)
+        ;
+
+        
+    
+    
+            var circle_marker_939bd2f23e72afa3fba8a6bf0ff23f51 = L.circleMarker(
+                [12.22046950290176, -70.00543084298715],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_cddb2a91ad4c64fee6715aa3977096b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3ced1810b891537e737ca8a7770fb86 = $(`<div id="html_d3ced1810b891537e737ca8a7770fb86" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_065 (Colombia) Risk: Medium</div>`)[0];
+                popup_cddb2a91ad4c64fee6715aa3977096b1.setContent(html_d3ced1810b891537e737ca8a7770fb86);
+            
+        
+
+        circle_marker_939bd2f23e72afa3fba8a6bf0ff23f51.bindPopup(popup_cddb2a91ad4c64fee6715aa3977096b1)
+        ;
+
+        
+    
+    
+            var circle_marker_90749b1e39ff2611f811809761eb648c = L.circleMarker(
+                [-2.6830244629307907, 29.643318496493524],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ec7e07f544c7c27ee69f9beb77a652e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb1526cd3ba66d5102012fbb477a6d80 = $(`<div id="html_bb1526cd3ba66d5102012fbb477a6d80" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_066 (Rwanda) Risk: Medium</div>`)[0];
+                popup_ec7e07f544c7c27ee69f9beb77a652e6.setContent(html_bb1526cd3ba66d5102012fbb477a6d80);
+            
+        
+
+        circle_marker_90749b1e39ff2611f811809761eb648c.bindPopup(popup_ec7e07f544c7c27ee69f9beb77a652e6)
+        ;
+
+        
+    
+    
+            var circle_marker_f3c69e388397d93594ad3aaad548c23c = L.circleMarker(
+                [9.707907205701876, -76.21011273075928],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_c58f2bce5cfe63081ea325a5f4ddc59f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d3942d1da298e793716e316605661d6 = $(`<div id="html_1d3942d1da298e793716e316605661d6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_067 (Colombia) Risk: Medium</div>`)[0];
+                popup_c58f2bce5cfe63081ea325a5f4ddc59f.setContent(html_1d3942d1da298e793716e316605661d6);
+            
+        
+
+        circle_marker_f3c69e388397d93594ad3aaad548c23c.bindPopup(popup_c58f2bce5cfe63081ea325a5f4ddc59f)
+        ;
+
+        
+    
+    
+            var circle_marker_0e6e98f9b36c2d7ac6b93a2aed1759e8 = L.circleMarker(
+                [20.825766269809492, 102.90254071526248],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_b748a053dd308e7f1befcef5941b4ca1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_257679b307ad11038670411f2f140e43 = $(`<div id="html_257679b307ad11038670411f2f140e43" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_068 (Vietnam) Risk: Low</div>`)[0];
+                popup_b748a053dd308e7f1befcef5941b4ca1.setContent(html_257679b307ad11038670411f2f140e43);
+            
+        
+
+        circle_marker_0e6e98f9b36c2d7ac6b93a2aed1759e8.bindPopup(popup_b748a053dd308e7f1befcef5941b4ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_609c1fc90eb15b0e942060129e2b989d = L.circleMarker(
+                [8.913569428646756, 104.88067958618436],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_768dcea891b0ac5fdc24739573d5f25e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_727c436170bea10f55dfe6a8b5b5b751 = $(`<div id="html_727c436170bea10f55dfe6a8b5b5b751" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_069 (Vietnam) Risk: High</div>`)[0];
+                popup_768dcea891b0ac5fdc24739573d5f25e.setContent(html_727c436170bea10f55dfe6a8b5b5b751);
+            
+        
+
+        circle_marker_609c1fc90eb15b0e942060129e2b989d.bindPopup(popup_768dcea891b0ac5fdc24739573d5f25e)
+        ;
+
+        
+    
+    
+            var circle_marker_415a3677086cbb5ac91962963e2e1a3a = L.circleMarker(
+                [-10.375557063747568, 139.03443209723298],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_2ccda0450e4843d06117edc87f976bad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d25cd71a3d0e488108b84dd0fc21c05e = $(`<div id="html_d25cd71a3d0e488108b84dd0fc21c05e" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_070 (Indonesia) Risk: Low</div>`)[0];
+                popup_2ccda0450e4843d06117edc87f976bad.setContent(html_d25cd71a3d0e488108b84dd0fc21c05e);
+            
+        
+
+        circle_marker_415a3677086cbb5ac91962963e2e1a3a.bindPopup(popup_2ccda0450e4843d06117edc87f976bad)
+        ;
+
+        
+    
+    
+            var circle_marker_5e27dbcdf41705420dc0b643e71f1d2c = L.circleMarker(
+                [20.75832657606828, 108.00577265347408],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_2581ce0b161f157142809a8caf6e91a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c216823a19ab6e6c82a8491a4965f64 = $(`<div id="html_8c216823a19ab6e6c82a8491a4965f64" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_071 (Vietnam) Risk: Medium</div>`)[0];
+                popup_2581ce0b161f157142809a8caf6e91a6.setContent(html_8c216823a19ab6e6c82a8491a4965f64);
+            
+        
+
+        circle_marker_5e27dbcdf41705420dc0b643e71f1d2c.bindPopup(popup_2581ce0b161f157142809a8caf6e91a6)
+        ;
+
+        
+    
+    
+            var circle_marker_6d1298237b2087a3cba55c169c322237 = L.circleMarker(
+                [-0.2937753090653974, 104.95090505968146],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_d916f5215a65645101654caa786b6358 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c79cec5750c8366caf9c736b6bb8d61 = $(`<div id="html_3c79cec5750c8366caf9c736b6bb8d61" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_072 (Indonesia) Risk: Medium</div>`)[0];
+                popup_d916f5215a65645101654caa786b6358.setContent(html_3c79cec5750c8366caf9c736b6bb8d61);
+            
+        
+
+        circle_marker_6d1298237b2087a3cba55c169c322237.bindPopup(popup_d916f5215a65645101654caa786b6358)
+        ;
+
+        
+    
+    
+            var circle_marker_ac47411101c2c1e962ebff9f7f44d0f7 = L.circleMarker(
+                [16.07755757348116, 106.47955554322756],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_898974fc37c896ff2f57daf56dde9972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c3b45fa2716626d3ee1cf38081ca934 = $(`<div id="html_8c3b45fa2716626d3ee1cf38081ca934" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_073 (Vietnam) Risk: Medium</div>`)[0];
+                popup_898974fc37c896ff2f57daf56dde9972.setContent(html_8c3b45fa2716626d3ee1cf38081ca934);
+            
+        
+
+        circle_marker_ac47411101c2c1e962ebff9f7f44d0f7.bindPopup(popup_898974fc37c896ff2f57daf56dde9972)
+        ;
+
+        
+    
+    
+            var circle_marker_29478d0f1abf67db1b66694d687afb4d = L.circleMarker(
+                [-1.8549432984515173, 29.34649007269821],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_053c23ef7a83f2e775e3379cdff9db16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_803e977c4ae4bd4230b94e4d4d794bf6 = $(`<div id="html_803e977c4ae4bd4230b94e4d4d794bf6" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_074 (Rwanda) Risk: High</div>`)[0];
+                popup_053c23ef7a83f2e775e3379cdff9db16.setContent(html_803e977c4ae4bd4230b94e4d4d794bf6);
+            
+        
+
+        circle_marker_29478d0f1abf67db1b66694d687afb4d.bindPopup(popup_053c23ef7a83f2e775e3379cdff9db16)
+        ;
+
+        
+    
+    
+            var circle_marker_630526a99d3ba7980114e293b38a1cd4 = L.circleMarker(
+                [-2.2407852866496603, 117.59457167995684],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_0028fe7c5bb0f18a6fbd209e6a6aa7fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cf4c819f65e58b50a572b765984e290 = $(`<div id="html_6cf4c819f65e58b50a572b765984e290" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_075 (Indonesia) Risk: Medium</div>`)[0];
+                popup_0028fe7c5bb0f18a6fbd209e6a6aa7fc.setContent(html_6cf4c819f65e58b50a572b765984e290);
+            
+        
+
+        circle_marker_630526a99d3ba7980114e293b38a1cd4.bindPopup(popup_0028fe7c5bb0f18a6fbd209e6a6aa7fc)
+        ;
+
+        
+    
+    
+            var circle_marker_18eeeefd15a491dc092c333e7573456c = L.circleMarker(
+                [14.85786142177733, 46.461542220693055],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_5878c04db027c93fcc88bd170e0c9f04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_829b02b6aea409a453dbff8d903fb0f4 = $(`<div id="html_829b02b6aea409a453dbff8d903fb0f4" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_076 (Ethiopia) Risk: Medium</div>`)[0];
+                popup_5878c04db027c93fcc88bd170e0c9f04.setContent(html_829b02b6aea409a453dbff8d903fb0f4);
+            
+        
+
+        circle_marker_18eeeefd15a491dc092c333e7573456c.bindPopup(popup_5878c04db027c93fcc88bd170e0c9f04)
+        ;
+
+        
+    
+    
+            var circle_marker_1339f5883bcd94efbd6054c23682916e = L.circleMarker(
+                [14.33648031946842, -85.53778822580227],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_b141b56d48e3edf52b6778578aafbb83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3435ea50203d95593665c81c16dffae7 = $(`<div id="html_3435ea50203d95593665c81c16dffae7" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_077 (Honduras) Risk: Medium</div>`)[0];
+                popup_b141b56d48e3edf52b6778578aafbb83.setContent(html_3435ea50203d95593665c81c16dffae7);
+            
+        
+
+        circle_marker_1339f5883bcd94efbd6054c23682916e.bindPopup(popup_b141b56d48e3edf52b6778578aafbb83)
+        ;
+
+        
+    
+    
+            var circle_marker_87c203d36223d2eda4b1098663ad7c55 = L.circleMarker(
+                [-4.5330074404030904, -72.53677223485745],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_d453833bf339e5595f56638e475a03f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2fee312c1f5640054c1dae7637224ad = $(`<div id="html_f2fee312c1f5640054c1dae7637224ad" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_078 (Brazil) Risk: Medium</div>`)[0];
+                popup_d453833bf339e5595f56638e475a03f8.setContent(html_f2fee312c1f5640054c1dae7637224ad);
+            
+        
+
+        circle_marker_87c203d36223d2eda4b1098663ad7c55.bindPopup(popup_d453833bf339e5595f56638e475a03f8)
+        ;
+
+        
+    
+    
+            var circle_marker_70a3345615f9ad50b21c6e5e308dbe21 = L.circleMarker(
+                [21.802805906663163, 108.45095112313444],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_c24b123379772a98b0355e1f98d7be98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5890761723c4dc9c481123e225ed08de = $(`<div id="html_5890761723c4dc9c481123e225ed08de" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_079 (Vietnam) Risk: Low</div>`)[0];
+                popup_c24b123379772a98b0355e1f98d7be98.setContent(html_5890761723c4dc9c481123e225ed08de);
+            
+        
+
+        circle_marker_70a3345615f9ad50b21c6e5e308dbe21.bindPopup(popup_c24b123379772a98b0355e1f98d7be98)
+        ;
+
+        
+    
+    
+            var circle_marker_5440c3f61c48306a140d6980b377eae3 = L.circleMarker(
+                [3.3933728230435416, -74.2668458304274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_eb6c2905457641541ec2360a21a60425 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_122037295537d107c67d8cfed3ce673f = $(`<div id="html_122037295537d107c67d8cfed3ce673f" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_080 (Colombia) Risk: High</div>`)[0];
+                popup_eb6c2905457641541ec2360a21a60425.setContent(html_122037295537d107c67d8cfed3ce673f);
+            
+        
+
+        circle_marker_5440c3f61c48306a140d6980b377eae3.bindPopup(popup_eb6c2905457641541ec2360a21a60425)
+        ;
+
+        
+    
+    
+            var circle_marker_3eb0a44fb55dd82b49ff4f6674211256 = L.circleMarker(
+                [12.348982497815989, 105.57507621247775],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_54aeece6b785f23a7178dea3c34795a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_663fa9f788de80796628aed6f52e2abb = $(`<div id="html_663fa9f788de80796628aed6f52e2abb" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_081 (Vietnam) Risk: Low</div>`)[0];
+                popup_54aeece6b785f23a7178dea3c34795a3.setContent(html_663fa9f788de80796628aed6f52e2abb);
+            
+        
+
+        circle_marker_3eb0a44fb55dd82b49ff4f6674211256.bindPopup(popup_54aeece6b785f23a7178dea3c34795a3)
+        ;
+
+        
+    
+    
+            var circle_marker_bd3af5364a28d5ada77463b5f47bfd70 = L.circleMarker(
+                [-3.46334738534827, -68.68845824650121],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_9268681ce49f4787097cc3c9ca7290e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_603c51240e1d9f68f94d0302c30b4783 = $(`<div id="html_603c51240e1d9f68f94d0302c30b4783" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_082 (Colombia) Risk: High</div>`)[0];
+                popup_9268681ce49f4787097cc3c9ca7290e6.setContent(html_603c51240e1d9f68f94d0302c30b4783);
+            
+        
+
+        circle_marker_bd3af5364a28d5ada77463b5f47bfd70.bindPopup(popup_9268681ce49f4787097cc3c9ca7290e6)
+        ;
+
+        
+    
+    
+            var circle_marker_32fc8b71f8fe2f29b0ae87ea71450401 = L.circleMarker(
+                [13.00980934209749, -87.3598815347068],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_c13c72b7e1308476e7b649aade53f726 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_840e69d40a109201de95faee0b850f2e = $(`<div id="html_840e69d40a109201de95faee0b850f2e" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_083 (Honduras) Risk: Medium</div>`)[0];
+                popup_c13c72b7e1308476e7b649aade53f726.setContent(html_840e69d40a109201de95faee0b850f2e);
+            
+        
+
+        circle_marker_32fc8b71f8fe2f29b0ae87ea71450401.bindPopup(popup_c13c72b7e1308476e7b649aade53f726)
+        ;
+
+        
+    
+    
+            var circle_marker_d6a77a7719f09061de11055c8b9579b8 = L.circleMarker(
+                [15.787927413788868, -84.8416815419546],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_9f45eb023ac7f3002c1e562cbf09e8df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4764586b84f5e52153a81d19c84a640b = $(`<div id="html_4764586b84f5e52153a81d19c84a640b" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_084 (Honduras) Risk: Low</div>`)[0];
+                popup_9f45eb023ac7f3002c1e562cbf09e8df.setContent(html_4764586b84f5e52153a81d19c84a640b);
+            
+        
+
+        circle_marker_d6a77a7719f09061de11055c8b9579b8.bindPopup(popup_9f45eb023ac7f3002c1e562cbf09e8df)
+        ;
+
+        
+    
+    
+            var circle_marker_b2542b399e89a1c1a47a373b9d9c817d = L.circleMarker(
+                [13.772311977790332, -87.83357561744252],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_9409f3038be4b76105c1207296bdd676 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4a64b187063d1c75744ac8db24fbde2 = $(`<div id="html_b4a64b187063d1c75744ac8db24fbde2" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_085 (Honduras) Risk: Medium</div>`)[0];
+                popup_9409f3038be4b76105c1207296bdd676.setContent(html_b4a64b187063d1c75744ac8db24fbde2);
+            
+        
+
+        circle_marker_b2542b399e89a1c1a47a373b9d9c817d.bindPopup(popup_9409f3038be4b76105c1207296bdd676)
+        ;
+
+        
+    
+    
+            var circle_marker_483a8add0ebc396488167e00d2221955 = L.circleMarker(
+                [-4.115636479020769, -70.58185705651803],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_0b74181566d58c63c4983e7b196ef520 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f214577a5c3a32c7fbc3d64c98c8fc94 = $(`<div id="html_f214577a5c3a32c7fbc3d64c98c8fc94" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_086 (Colombia) Risk: Medium</div>`)[0];
+                popup_0b74181566d58c63c4983e7b196ef520.setContent(html_f214577a5c3a32c7fbc3d64c98c8fc94);
+            
+        
+
+        circle_marker_483a8add0ebc396488167e00d2221955.bindPopup(popup_0b74181566d58c63c4983e7b196ef520)
+        ;
+
+        
+    
+    
+            var circle_marker_b1601f5b46e7263885da8256da148c78 = L.circleMarker(
+                [8.94151044143223, 105.99451889550572],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_d19e39dec9c5685c15ebdb7a2685eb17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f861fe97cc519dad31d962264637f178 = $(`<div id="html_f861fe97cc519dad31d962264637f178" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_087 (Vietnam) Risk: Medium</div>`)[0];
+                popup_d19e39dec9c5685c15ebdb7a2685eb17.setContent(html_f861fe97cc519dad31d962264637f178);
+            
+        
+
+        circle_marker_b1601f5b46e7263885da8256da148c78.bindPopup(popup_d19e39dec9c5685c15ebdb7a2685eb17)
+        ;
+
+        
+    
+    
+            var circle_marker_02f6371b98ff83e9a526a5d013199c00 = L.circleMarker(
+                [15.882578115035354, -88.72129306766239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4251d84fd1f2f8aca1de9661b1e379ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_920cc66a1b74a6ad70660ef9b87f4dfe = $(`<div id="html_920cc66a1b74a6ad70660ef9b87f4dfe" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_088 (Honduras) Risk: Low</div>`)[0];
+                popup_4251d84fd1f2f8aca1de9661b1e379ea.setContent(html_920cc66a1b74a6ad70660ef9b87f4dfe);
+            
+        
+
+        circle_marker_02f6371b98ff83e9a526a5d013199c00.bindPopup(popup_4251d84fd1f2f8aca1de9661b1e379ea)
+        ;
+
+        
+    
+    
+            var circle_marker_366fc2af49f432125473d63ad33ab851 = L.circleMarker(
+                [-1.1899361242574786, 30.8820982038046],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_8559a14baaf4b9003dced70d9d714642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_182cc2b4d275c9fdd0cefe5870947260 = $(`<div id="html_182cc2b4d275c9fdd0cefe5870947260" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_089 (Rwanda) Risk: Medium</div>`)[0];
+                popup_8559a14baaf4b9003dced70d9d714642.setContent(html_182cc2b4d275c9fdd0cefe5870947260);
+            
+        
+
+        circle_marker_366fc2af49f432125473d63ad33ab851.bindPopup(popup_8559a14baaf4b9003dced70d9d714642)
+        ;
+
+        
+    
+    
+            var circle_marker_62d3286f767e3ff8995a168ef68785d7 = L.circleMarker(
+                [-9.954210553933004, 135.61368838032325],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_ae534800441e833c93a7294bdc1fcdf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a92513d42fd2a626af02e2621174d6dc = $(`<div id="html_a92513d42fd2a626af02e2621174d6dc" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_090 (Indonesia) Risk: Medium</div>`)[0];
+                popup_ae534800441e833c93a7294bdc1fcdf7.setContent(html_a92513d42fd2a626af02e2621174d6dc);
+            
+        
+
+        circle_marker_62d3286f767e3ff8995a168ef68785d7.bindPopup(popup_ae534800441e833c93a7294bdc1fcdf7)
+        ;
+
+        
+    
+    
+            var circle_marker_becea6ed62c8ca22294443c6773a3f86 = L.circleMarker(
+                [4.366911739364037, -68.03118399472059],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_5cddd00f3bcf18e1fa3e5a2e1a62c30c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13537a33804739b13f89ed5ccf8982d1 = $(`<div id="html_13537a33804739b13f89ed5ccf8982d1" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_091 (Colombia) Risk: Low</div>`)[0];
+                popup_5cddd00f3bcf18e1fa3e5a2e1a62c30c.setContent(html_13537a33804739b13f89ed5ccf8982d1);
+            
+        
+
+        circle_marker_becea6ed62c8ca22294443c6773a3f86.bindPopup(popup_5cddd00f3bcf18e1fa3e5a2e1a62c30c)
+        ;
+
+        
+    
+    
+            var circle_marker_3655837ab882b751b5d37cf301fc8dba = L.circleMarker(
+                [5.283894435864931, -70.98844467771058],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_a493d6afc6ed29efb1dd14a94fde0082 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_124fab1e27dcd816fe71c7e35a6e5476 = $(`<div id="html_124fab1e27dcd816fe71c7e35a6e5476" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_092 (Colombia) Risk: Medium</div>`)[0];
+                popup_a493d6afc6ed29efb1dd14a94fde0082.setContent(html_124fab1e27dcd816fe71c7e35a6e5476);
+            
+        
+
+        circle_marker_3655837ab882b751b5d37cf301fc8dba.bindPopup(popup_a493d6afc6ed29efb1dd14a94fde0082)
+        ;
+
+        
+    
+    
+            var circle_marker_e749f40dfe64e38294a6797fe2dbfeb6 = L.circleMarker(
+                [16.465439401560467, 108.48369660230512],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_f1d851b5dd0080f79016c9e17f85f0c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_006dbc8da7c0d25376aa5ae094ca61f4 = $(`<div id="html_006dbc8da7c0d25376aa5ae094ca61f4" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_093 (Vietnam) Risk: Low</div>`)[0];
+                popup_f1d851b5dd0080f79016c9e17f85f0c4.setContent(html_006dbc8da7c0d25376aa5ae094ca61f4);
+            
+        
+
+        circle_marker_e749f40dfe64e38294a6797fe2dbfeb6.bindPopup(popup_f1d851b5dd0080f79016c9e17f85f0c4)
+        ;
+
+        
+    
+    
+            var circle_marker_e6dcabf9c79cf4f1339078b954088ec5 = L.circleMarker(
+                [7.982904654631449, -72.69275022261698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_d9ffa86019a1b4222f4b66b8b2e48836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cd019c77a96bd79a759d08f0633ca82 = $(`<div id="html_0cd019c77a96bd79a759d08f0633ca82" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_094 (Colombia) Risk: Low</div>`)[0];
+                popup_d9ffa86019a1b4222f4b66b8b2e48836.setContent(html_0cd019c77a96bd79a759d08f0633ca82);
+            
+        
+
+        circle_marker_e6dcabf9c79cf4f1339078b954088ec5.bindPopup(popup_d9ffa86019a1b4222f4b66b8b2e48836)
+        ;
+
+        
+    
+    
+            var circle_marker_203e6157da6dcc72b906f41ad6ec6ad5 = L.circleMarker(
+                [10.21146934725568, -76.03204505971046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_b50b45be490d68858738f93735d08d07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90b41791b887fea349f64d9c4b991b59 = $(`<div id="html_90b41791b887fea349f64d9c4b991b59" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_095 (Colombia) Risk: High</div>`)[0];
+                popup_b50b45be490d68858738f93735d08d07.setContent(html_90b41791b887fea349f64d9c4b991b59);
+            
+        
+
+        circle_marker_203e6157da6dcc72b906f41ad6ec6ad5.bindPopup(popup_b50b45be490d68858738f93735d08d07)
+        ;
+
+        
+    
+    
+            var circle_marker_e5af815ebb704cee867fd73e24c903b0 = L.circleMarker(
+                [13.38775604507783, -88.40551934695355],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_eb6bea3c657b0d3c08ac002047bfd4c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eb15f72dea7e4c836b57076b67621b2 = $(`<div id="html_4eb15f72dea7e4c836b57076b67621b2" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_096 (Honduras) Risk: Medium</div>`)[0];
+                popup_eb6bea3c657b0d3c08ac002047bfd4c0.setContent(html_4eb15f72dea7e4c836b57076b67621b2);
+            
+        
+
+        circle_marker_e5af815ebb704cee867fd73e24c903b0.bindPopup(popup_eb6bea3c657b0d3c08ac002047bfd4c0)
+        ;
+
+        
+    
+    
+            var circle_marker_d2ffdddccf8bebde134fcbd99db41089 = L.circleMarker(
+                [13.276934956927615, 103.79017523475764],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_4ce131c9630ddbafe783019d20a34145 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b190e308f816e9908af565afe6674bb = $(`<div id="html_7b190e308f816e9908af565afe6674bb" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_097 (Vietnam) Risk: Medium</div>`)[0];
+                popup_4ce131c9630ddbafe783019d20a34145.setContent(html_7b190e308f816e9908af565afe6674bb);
+            
+        
+
+        circle_marker_d2ffdddccf8bebde134fcbd99db41089.bindPopup(popup_4ce131c9630ddbafe783019d20a34145)
+        ;
+
+        
+    
+    
+            var circle_marker_cf4468bedd3007102a371f718f407e44 = L.circleMarker(
+                [15.78328008658019, -88.74382861826278],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_081693ccee135cc99f8f14200f4b182e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f86fb37328698d9b869106639cf1192 = $(`<div id="html_9f86fb37328698d9b869106639cf1192" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_098 (Honduras) Risk: Medium</div>`)[0];
+                popup_081693ccee135cc99f8f14200f4b182e.setContent(html_9f86fb37328698d9b869106639cf1192);
+            
+        
+
+        circle_marker_cf4468bedd3007102a371f718f407e44.bindPopup(popup_081693ccee135cc99f8f14200f4b182e)
+        ;
+
+        
+    
+    
+            var circle_marker_dcfcfdc539666afd830f9f86679c9cdf = L.circleMarker(
+                [0.8828425466729903, 103.70419083011026],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_786b0076ab1e8e49be38357d73ffcd1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06371ad389f594b00d10d9c9cfff05da = $(`<div id="html_06371ad389f594b00d10d9c9cfff05da" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_099 (Indonesia) Risk: Medium</div>`)[0];
+                popup_786b0076ab1e8e49be38357d73ffcd1b.setContent(html_06371ad389f594b00d10d9c9cfff05da);
+            
+        
+
+        circle_marker_dcfcfdc539666afd830f9f86679c9cdf.bindPopup(popup_786b0076ab1e8e49be38357d73ffcd1b)
+        ;
+
+        
+    
+    
+            var circle_marker_a9984582c19977b40a55850f29046eca = L.circleMarker(
+                [3.987831257095953, 139.22050325650574],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_56580007fb5c978a657e920a768746a9);
+        
+    
+        var popup_936b2c59a7aa0117afbd94e683da0a6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25bb9704940aee4832384a87c6848f20 = $(`<div id="html_25bb9704940aee4832384a87c6848f20" style="width: 100.0%; height: 100.0%;">CoffeeSupplier_100 (Indonesia) Risk: Medium</div>`)[0];
+                popup_936b2c59a7aa0117afbd94e683da0a6a.setContent(html_25bb9704940aee4832384a87c6848f20);
+            
+        
+
+        circle_marker_a9984582c19977b40a55850f29046eca.bindPopup(popup_936b2c59a7aa0117afbd94e683da0a6a)
+        ;
+
+        
+    
+</script>
+</html>
